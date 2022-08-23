@@ -1,0 +1,37 @@
+p1,p2,rg,se,z,p,priority,significant
+GD,"FG: Diabetes mellitus & 
+UK: Unspecified diabetes mellitus",0.930488,0.164872,5.643699354650881,1.6643460568487403e-08,2,*
+HP,"FG: Diabetes mellitus & 
+UK: Unspecified diabetes mellitus",0.420760,0.098911,4.253925245928158,2.1005545145809133e-05,2,*
+PTB,"FG: Diabetes mellitus & 
+UK: Unspecified diabetes mellitus",0.300049,0.316877,0.9468942207859832,0.3436926831273841,2,
+GD,"FG: Obesity & 
+UK: Obesity",0.529482,0.153193,3.4563067503084346,0.0005476317267346239,2,
+HP,"FG: Obesity & 
+UK: Obesity",0.374283,0.092909,4.028490243141138,5.6136190052813255e-05,2,*
+PTB,"FG: Obesity & 
+UK: Obesity",0.175672,0.260471,0.6744397648874538,0.500031768855641,2,
+GD,"FG: Hypertension, essential & 
+UK: Essential (primary) hypertension",0.500904,0.141347,3.5437893977233337,0.000394420172360493,2,
+HP,"FG: Hypertension, essential & 
+UK: Essential (primary) hypertension",0.699877,0.101525,6.893641960108347,5.438179649666992e-12,2,*
+PTB,"FG: Hypertension, essential & 
+UK: Essential (primary) hypertension",0.319135,0.311526,1.0244249276143884,0.3056346129088966,2,
+GD,"FG: Ischaemic heart disease, wide definition & 
+UK: Chronic ischaemic heart disease",0.247124,0.091702,2.6948594359992146,0.007041833064718832,2,
+HP,"FG: Ischaemic heart disease, wide definition & 
+UK: Chronic ischaemic heart disease",0.450153,0.083383,5.398618423419642,6.715603353473445e-08,2,*
+PTB,"FG: Ischaemic heart disease, wide definition & 
+UK: Chronic ischaemic heart disease",0.148780,0.158187,0.9405324078464097,0.34694453435662287,2,
+GD,"FG: Unspecified maternal hypertension & 
+UK: Unspecified maternal hypertension",0.107861,0.474805,0.22716904834616317,0.8202922943833542,2,
+HP,"FG: Unspecified maternal hypertension & 
+UK: Unspecified maternal hypertension",0.781216,0.178088,4.3866852342662055,1.1509115463973533e-05,2,*
+PTB,"FG: Unspecified maternal hypertension & 
+UK: Unspecified maternal hypertension",0.089876,0.615927,0.1459198898570772,0.8839846298157554,2,
+GD,"FG: Pain in throat and chest & 
+UK: Pain in throat and chest",0.410649,0.114888,3.5743419678295383,0.00035110979873842306,2,
+HP,"FG: Pain in throat and chest & 
+UK: Pain in throat and chest",0.358103,0.078627,4.554453304844392,5.252198943715222e-06,2,*
+PTB,"FG: Pain in throat and chest & 
+UK: Pain in throat and chest",0.321487,0.220537,1.4577463192117424,0.1449104795596973,2,
