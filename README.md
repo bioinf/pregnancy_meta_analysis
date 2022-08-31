@@ -107,7 +107,7 @@ All data is located in `data` directory:
     * `data/meta_top_short.csv` - significant and filtered (selected 1 per loci) annotated summstats from meta-analysis.
 * Other:
     * `data/file_mapping` - mapping of selected 24 traits files and N_samples for finngen
-    * `data/summstats/` - all summary statistics:
+    *  All summary statistics can be found [here](https://drive.google.com/drive/folders/1J0KvO_G50yOtg8wxNKAPZryUCs3OLH9w?usp=sharing):
         * `maf_fg_*.tsv` - FinnGen summary statistics filtered by MAF.
         * `extended_*.TBL` - summary statistics from meta-analysis by METAL.
 
