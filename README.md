@@ -66,8 +66,8 @@ As a result we will have `cor_full_*.txt` with all not-na genetic correlations f
 
 5) Draw genetic correlation plot:
 
-* Launch `2.3.1_make_table_for_r.ipynb` to prepare table
-* Launch `2.3.2_draw_gen_cor.R` - to draw the plot
+* Launch `2.3.1_make_table_for_r.ipynb` and `2.3.1_make_table_for_r_FG.ipynb` to prepare tables for meta-analysis GWAS / FG GWAS respectively
+* Launch `2.3.2_draw_gen_cor.R` - to draw the forrest plots and heatmaps of genetic correlations.
 
 ### Select and annotate top snps
 
@@ -81,12 +81,15 @@ As a result we will have `cor_full_*.txt` with all not-na genetic correlations f
 
 ## Images
 All images are located in `img` directory. 
-* `img/final_gen_cor.pdf` - forest plot with genetic correlations
-* `img/QQplot.pval__*.pdf` - Q-Q plots of significant traits
-    * `img/QQplot.pval__FG_*.pdf` - for FinnGen data only.
+* `img/*_gen_cor.pdf` and `img/*_gen_cor_heatmap.pdf` - forrest plots and heatmaps (respectively) with genetic correlations:
+   * `meta_*` - for meta-analysis GWAS;
+   * `fg_supp_` - for FG GWAS and supported by researches traits;
+   * `fg_not_supp_` - for FG GWAS and not supported by researches traits.
+* `img/QQplot.pval__*.pdf` - Q-Q plots of significant traits:
+    * `img/QQplot.pval__FG_*.pdf` - for FinnGen data only;
     * `img/QQplot.pval__MET_*.pdf` - for meta-analysis data only.
-* `img/Rectangular-Manhattan..pval__*.pdf` - Manhattan plots of significant traits
-    * `img/Rectangular-Manhattan..pval__FG_*.pdf` - for FinnGen data only.
+* `img/Rectangular-Manhattan..pval__*.pdf` - Manhattan plots of significant traits:
+    * `img/Rectangular-Manhattan..pval__FG_*.pdf` - for FinnGen data only;
     * `img/Rectangular-Manhattan..pval__MET_*.pdf` - for meta-analysis data only.
     
     
@@ -99,7 +102,10 @@ All data is located in `data` directory:
 * Genetic correlations:
     * `data/cor_full_<trait>.txt` - file with all genetic correlations for selected traits
     * `data/cor_<trait>.txt` - file with significant genetic correlations for selected traits
-    * `data/feature.csv` - annotated table with significant genetic correlations 
+    * `data/meta_feature.csv` - annotated table with significant genetic correlations for meta-analysis
+    * `data/fg_feature.csv` - annotated table with significant genetic correlations for FG GWAS:
+        * `fg_feature_supp.csv` - selected only supported by researches traits
+        * `fg_feature_not_supp.csv` - selected only not supported by researches traits
 * Annotated SNPs:
     * `data/finn_top.csv` - significant annotated summstats from FinnGen GWAS.
     * `data/finn_top_short.csv` - significant and filtered (selected 1 per loci) annotated summstats from FinnGen GWAS.
