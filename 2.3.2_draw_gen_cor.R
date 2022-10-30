@@ -131,8 +131,21 @@ dev.off()
 # Prepare FG data
 # ==========================================================
 
+fg_datas = c("out_data_fg/fg_feature_supp.csv", "out_data_fg/fg_feature_not_supp.csv")
+forrest_names <- c("img/fg_supp_gen_cor.pdf", "img/fg_not_supp_gen_cor.pdf")
+forrest_sizes <- c(c(30,25), c(30,15))
+heatmap_names <- c("img/fg_supp_gen_cor_heatmap.pdf", "img/fg_supp_gen_cor_heatmap.pdf")
+heatmap_sizes <- c(c(8,14), c(8,8))
 
-d_fg <- read.csv("out_data_fg/feature_supp.csv", stringsAsFactor=F)
+
+i = 1
+fg_data <- fg_datas[i]
+forrest_name <- forrest_names[i]
+forrest_size <- forrest_sizes[i]
+heatmap_name <- heatmap_names[i]
+heatmap_size <- heatmap_sizes[i]
+
+d_fg <- read.csv(fg_data, stringsAsFactor=F)
 FG_levels <- c("HP", 'GH', "EV", "GD")
 
 ds_fg <- d_fg
@@ -168,7 +181,7 @@ y_max_fg <- ceiling(max(dsO_fg$ymax)*10)/10
 # ==========================================================
 
 
-pdf("img/gen_cor_FG_supp.pdf",width=30,height=25)
+pdf(forrest_name,width=forrest_size[1],height=forrest_size[2])
 
 p1_fg <- ggplot(dsO_fg, aes(x=pos, y=rg, ymin=ymin, ymax=ymax)) +
   # geom_hline(yintercept=0.05/nrow(d), linetype="dashed") + # se vuoi una linea verticale nel plot, se no togli
@@ -225,7 +238,7 @@ dat_fg$stars <- dat_fg$significant
 
 dat_fg$exposure.name <- factor(dat_fg$exposure.name, levels = FG_levels)
 
-pdf("img/heatmap_gen_cor_FG_supp.pdf",width=8,height=14)
+pdf(forrest_name,width=heatmap_size[1],height=heatmap_size[2])
 
 p2_fg <- ggplot(dat_fg) +
   geom_raster(aes(x = exposure.name, y = outcome.name, fill = rg)) +
