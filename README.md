@@ -1,5 +1,28 @@
 # Meta-analysis of genome-wide association data from UK Biobank and FinnGen highlights risk loci for pregnancy complications
 
+## Citation
+
+When using data or code from this repository, please cite:
+
+
+@Article{genes13122255,
+AUTHOR = {Changalidis, Anton I. and Maksiutenko, Evgeniia M. and Barbitoff, Yury A. and Tkachenko, Alexander A. and Vashukova, Elena S. and Pachuliia, Olga V. and Nasykhova, Yulia A. and Glotov, Andrey S.},
+TITLE = {Aggregation of Genome-Wide Association Data from FinnGen and UK Biobank Replicates Multiple Risk Loci for Pregnancy Complications},
+JOURNAL = {Genes},
+VOLUME = {13},
+YEAR = {2022},
+NUMBER = {12},
+ARTICLE-NUMBER = {2255},
+URL = {https://www.mdpi.com/2073-4425/13/12/2255},
+PubMedID = {36553520},
+ISSN = {2073-4425},
+ABSTRACT = {Complications endangering mother or fetus affect around one in seven pregnant women. Investigation of the genetic susceptibility to such diseases is of high importance for better understanding of the disease biology as well as for prediction of individual risk. In this study, we collected and analyzed GWAS summary statistics from the FinnGen cohort and UK Biobank for 24 pregnancy complications. In FinnGen, we identified 11 loci associated with pregnancy hypertension, excessive vomiting, and gestational diabetes. When UK Biobank and FinnGen data were combined, we discovered six loci reaching genome-wide significance in the meta-analysis. These include rs35954793 in FGF5 (p=6.1×10?9), rs10882398 in PLCE1 (p=8.9×10?9), and rs167479 in RGL3 (p=5.2×10?9) for pregnancy hypertension, rs10830963 in MTNR1B (p=4.5×10?41) and rs36090025 in TCF7L2 (p=3.4×10?15) for gestational diabetes, and rs2963457 in the EBF1 locus (p=6.5×10?9) for preterm birth. In addition to the identified genome-wide associations, we also replicated 14 out of 40 previously reported GWAS markers for pregnancy complications, including four more preeclampsia-related variants. Finally, annotation of the GWAS results identified a causal relationship between gene expression in the cervix and gestational hypertension, as well as both known and previously uncharacterized genetic correlations between pregnancy complications and other traits. These results suggest new prospects for research into the etiology and pathogenesis of pregnancy complications, as well as early risk prediction for these disorders.},
+DOI = {10.3390/genes13122255}
+}
+
+
+
+
 ## Code
 
 ### Launch meta-analysis
